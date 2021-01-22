@@ -27,8 +27,21 @@ namespace MyDictionary1
             foreach (var age in MyList.Tage)
             {
                 i = i + 1;
-                Console.WriteLine("Kişiler {0}. Soyadı : {1} ", i, age);
+                Console.WriteLine("Kişiler {0}. Yaşı : {1} ", i, age);
             }
+
+            // output ==>
+
+            // Kişiler 1. Adı : Atakan
+            // Kişiler 2. Adı : Melek
+            // Kişiler 3. Adı : Furkan
+            // Kişiler 1. Soyadı : Çiğdem
+            // Kişiler 2. Soyadı : Gül
+            // Kişiler 3. Soyadı : Çiğdem
+            // Kişiler 1. Yaşı : 19
+            // Kişiler 2. Yaşı : 46
+            // Kişiler 3. Yaşı : 29
+
         }
     }
 }
